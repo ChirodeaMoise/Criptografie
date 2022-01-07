@@ -1,0 +1,14 @@
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\bin\Debug\net6.0\Laborator 4. Substitutii polialfabetice.exe
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\bin\Debug\net6.0\Laborator 4. Substitutii polialfabetice.deps.json
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\bin\Debug\net6.0\Laborator 4. Substitutii polialfabetice.runtimeconfig.json
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\bin\Debug\net6.0\Laborator 4. Substitutii polialfabetice.dll
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\bin\Debug\net6.0\ref\Laborator 4. Substitutii polialfabetice.dll
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\bin\Debug\net6.0\Laborator 4. Substitutii polialfabetice.pdb
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\obj\Debug\net6.0\Laborator 4. Substitutii polialfabetice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\obj\Debug\net6.0\Laborator 4. Substitutii polialfabetice.AssemblyInfoInputs.cache
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\obj\Debug\net6.0\Laborator 4. Substitutii polialfabetice.AssemblyInfo.cs
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\obj\Debug\net6.0\Laborator 4. Substitutii polialfabetice.csproj.CoreCompileInputs.cache
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\obj\Debug\net6.0\Laborator 4. Substitutii polialfabetice.dll
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\obj\Debug\net6.0\ref\Laborator 4. Substitutii polialfabetice.dll
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\obj\Debug\net6.0\Laborator 4. Substitutii polialfabetice.pdb
+C:\Users\Chirodea\source\repos\ChirodeaMoise\Criptografie\Substitutii polialfabetice\Laborator 4. Substitutii polialfabetice\obj\Debug\net6.0\Laborator 4. Substitutii polialfabetice.genruntimeconfig.cache

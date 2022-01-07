@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Laborator 4. Substitutii polialfabetice/1.0.0": {
+        "runtime": {
+          "Laborator 4. Substitutii polialfabetice.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Laborator 4. Substitutii polialfabetice/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
