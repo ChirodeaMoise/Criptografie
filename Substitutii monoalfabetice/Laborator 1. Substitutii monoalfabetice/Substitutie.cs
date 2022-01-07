@@ -8,77 +8,77 @@ namespace Laborator_1._Substitutii_monoalfabetice
 {
     class Substitutie : AlgoritmSimetric
     {
-        public string cuvant = Console.ReadLine();
+        public string word = Console.ReadLine();
 
         public Substitutie()
         {
-            cuvant = StergereDubluri(cuvant);
-            Console.WriteLine(cuvant);
-            cuvant = Cheie(cuvant);
-            Console.WriteLine(cuvant);
-            criptat = Criptare(text, cuvant);
-            Console.WriteLine(criptat);
-            criptat = Spatiere(criptat);
+            word = DeleteDuplicates(word);
+            Console.WriteLine(word);
+            word = Key(word);
+            Console.WriteLine(word);
+            encrypted = Encryption(text, word);
+            Console.WriteLine(encrypted);
+            encrypted = Spacing(encrypted);
         }
 
 
-        public string StergereDubluri(string cuvant)
+        public string DeleteDuplicates(string word)
         {
-            string rezultat = "";
-            List<char> lista = new List<char>();
-            for (int i = 0; i < cuvant.Length; i++)
-                if (!lista.Contains(cuvant[i]))
-                    lista.Add(cuvant[i]);
+            string result = "";
+            List<char> list = new List<char>();
+            for (int i = 0; i < word.Length; i++)
+                if (!list.Contains(word[i]))
+                    list.Add(word[i]);
 
-            foreach (char item in lista)
-                rezultat += item;
+            foreach (char item in list)
+                result += item;
 
-            return rezultat;
+            return result;
         }
 
-        public string Cheie(string cuvant)
+        public string Key(string word)
         {
             string aux = "";
-            string rezultat = "";
-            string alfabet = "abcdefghijklmnopqrstuvwxyz";
-            for (int i = 0; i < alfabet.Length; i++)
-                if (!cuvant.Contains(alfabet[i]))
-                    aux += alfabet[i];
-            rezultat = cuvant + aux;
-            return rezultat;
+            string result = "";
+            string alphabet = "abcdefghijklmnopqrstuvwxyz";
+            for (int i = 0; i < alphabet.Length; i++)
+                if (!word.Contains(alphabet[i]))
+                    aux += alphabet[i];
+            result = word + aux;
+            return result;
         }
 
-        public string Criptare(string text, string cuvant)
+        public string Encryption(string text, string word)
         {
-            string criptat = "";
-            char c;
+            string encrypted = "";
+            char w;
             for (int i = 0; i < text.Length; i++)
             {
-                c = text[i];
-                if (Char.IsLetter(c))
+                w = text[i];
+                if (Char.IsLetter(w))
                 {
-                    c = cuvant[IntTrans(c) - 1];
+                    w = word[IntTrans(w) - 1];
                 }
-                criptat += c;
+                encrypted += w;
             }
-            return criptat;
+            return encrypted;
         }
 
-        public string Spatiere(string criptat)
+        public string Spacing(string encrypted)
         {
-            string rezultat = "";
-            foreach (char item in criptat)
+            string result = "";
+            foreach (char item in encrypted)
             {
                 if (Char.IsLetter(item))
-                    rezultat += item;
+                    result += item;
             }
 
-            for (int i = 0; i <= rezultat.Length; i++)
+            for (int i = 0; i <= result.Length; i++)
             {
                 if (i % 6 == 0)
-                    rezultat = rezultat.Insert(i, " ");
+                    result = result.Insert(i, " ");
             }
-            return rezultat;
+            return result;
         }
 
     }

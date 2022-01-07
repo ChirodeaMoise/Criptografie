@@ -11,12 +11,12 @@ namespace Laborator_1._Substitutii_monoalfabetice
 
         public ROT13()
         {
-            criptat = Criptare(text);
+            encrypted = Encryption(text);
         }
 
-        public string Criptare(string text)
+        public string Encryption(string text)
         {
-            string criptat = "";
+            string encrypted = "";
             char c;
             for (int i = 0; i < text.Length; i++)
             {
@@ -28,14 +28,14 @@ namespace Laborator_1._Substitutii_monoalfabetice
                     else
                         c -= (char)13;
                 }
-                criptat += c;
+                encrypted += c;
             }
-            return criptat;
+            return encrypted;
         }
 
-        public string Decriptare(string text)
+        public string Decryption(string text)
         {
-            string decriptat = "";
+            string decrypted = "";
             char c;
             for (int i = 0; i < text.Length; i++)
             {
@@ -47,9 +47,9 @@ namespace Laborator_1._Substitutii_monoalfabetice
                     else
                         c += (char)13;
                 }
-                decriptat += c;
+                decrypted += c;
             }
-            return decriptat;
+            return decrypted;
         }
     }
 }

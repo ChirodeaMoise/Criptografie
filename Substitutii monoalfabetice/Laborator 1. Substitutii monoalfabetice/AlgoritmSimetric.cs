@@ -9,7 +9,7 @@ namespace Laborator_1._Substitutii_monoalfabetice
     class AlgoritmSimetric
     {
         public string text = "to die for liberty is a pleasure and not a pain."; //Markos Botsaris, Greek general, hero of the Greek War of Independence (21 August 1823), killed in action in attack on Karpenisi
-        public string criptat;
+        public string encrypted ;
         public AlgoritmSimetric()
         {
         }
@@ -17,92 +17,92 @@ namespace Laborator_1._Substitutii_monoalfabetice
         public int IntTrans(char c)
         {
             c = Char.ToLower(c);
-            int rezultat = 0;
+            int result = 0;
             switch (c)
             {
                 case 'a':
-                    rezultat = 1;
+                    result = 1;
                     break;
                 case 'b':
-                    rezultat = 2;
+                    result = 2;
                     break;
                 case 'c':
-                    rezultat = 3;
+                    result = 3;
                     break;
                 case 'd':
-                    rezultat = 4;
+                    result = 4;
                     break;
                 case 'e':
-                    rezultat = 5;
+                    result = 5;
                     break;
                 case 'f':
-                    rezultat = 6;
+                    result = 6;
                     break;
                 case 'g':
-                    rezultat = 7;
+                    result = 7;
                     break;
                 case 'h':
-                    rezultat = 8;
+                    result = 8;
                     break;
                 case 'i':
-                    rezultat = 9;
+                    result = 9;
                     break;
                 case 'j':
-                    rezultat = 10;
+                    result = 10;
                     break;
                 case 'k':
-                    rezultat = 11;
+                    result = 11;
                     break;
                 case 'l':
-                    rezultat = 12;
+                    result = 12;
                     break;
                 case 'm':
-                    rezultat = 13;
+                    result = 13;
                     break;
                 case 'n':
-                    rezultat = 14;
+                    result = 14;
                     break;
                 case 'o':
-                    rezultat = 15;
+                    result = 15;
                     break;
                 case 'p':
-                    rezultat = 16;
+                    result = 16;
                     break;
                 case 'q':
-                    rezultat = 17;
+                    result = 17;
                     break;
                 case 'r':
-                    rezultat = 18;
+                    result = 18;
                     break;
                 case 's':
-                    rezultat = 19;
+                    result = 19;
                     break;
                 case 't':
-                    rezultat = 20;
+                    result = 20;
                     break;
                 case 'u':
-                    rezultat = 21;
+                    result = 21;
                     break;
                 case 'v':
-                    rezultat = 22;
+                    result = 22;
                     break;
                 case 'w':
-                    rezultat = 23;
+                    result = 23;
                     break;
                 case 'x':
-                    rezultat = 24;
+                    result = 24;
                     break;
                 case 'y':
-                    rezultat = 25;
+                    result = 25;
                     break;
                 case 'z':
-                    rezultat = 26;
+                    result = 26;
                     break;
                 default:
                     break;
 
             }
-            return rezultat;
+            return result;
         }
 
     }

@@ -12,10 +12,10 @@ namespace Laborator_1._Substitutii_monoalfabetice
         public CezarGeneralizat()
         {
             n = int.Parse(Console.ReadLine());
-            criptat = Criptare(text, n);
+            encrypted = Encryption(text, n);
         }
 
-        private int PregatireN(int n)
+        private int PrepareN(int n)
         {
             while (n > 26)
             {
@@ -25,10 +25,10 @@ namespace Laborator_1._Substitutii_monoalfabetice
         }
 
 
-        public string Criptare(string text, int n)
+        public string Encryption(string text, int n)
         {
-            n = PregatireN(n);
-            string criptat = "";
+            n = PrepareN(n);
+            string encrypted = "";
             char c;
             for (int i = 0; i < text.Length; i++)
             {
@@ -40,15 +40,15 @@ namespace Laborator_1._Substitutii_monoalfabetice
                     else
                         c -= (char)(26 - n);
                 }
-                criptat += c;
+                encrypted += c;
             }
-            return criptat;
+            return encrypted;
         }
 
-        public string Decriptare(string text, int n)
+        public string Decryption(string text, int n)
         {
-            n = PregatireN(n);
-            string decriptat = "";
+            n = PrepareN(n);
+            string decryption = "";
             char c;
             for (int i = 0; i < text.Length; i++)
             {
@@ -60,9 +60,9 @@ namespace Laborator_1._Substitutii_monoalfabetice
                     else
                         c += (char)(26 - n);
                 }
-                decriptat += c;
+                decryption += c;
             }
-            return decriptat;
+            return decryption;
         }
     }
 }

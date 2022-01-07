@@ -11,36 +11,47 @@ namespace Laborator_1._Substitutii_monoalfabetice
 
         static void Main(string[] args)
         {
+            #region Cezar
             Cezar cezar = new Cezar();
-            Console.WriteLine("Criptare prin cifrul lui Cezar:");
-            Console.WriteLine(cezar.criptat);
+            Console.WriteLine("- Criptare prin cifrul lui Cezar -");
             Console.WriteLine();
-            string decriptat = cezar.Decriptare(cezar.criptat);
-            Console.WriteLine(decriptat);
-
+            Console.Write("encrypted> "); Console.Write(cezar.encrypted);
             Console.WriteLine();
+            string decrypted = cezar.Decryption(cezar.encrypted);
+            Console.Write("plaintext> "); Console.WriteLine(decrypted);
+            #endregion
 
-            Console.Write("n=");
+            Console.Write("------------------------------------------------------------");
+            Console.WriteLine();
+            #region CezarGeneralizat
+            Console.WriteLine("- Criptare prin cifrul lui Cezar generalizat -");
+            Console.Write("Introduceti valori lui n=");
             CezarGeneralizat cezarGeneralizat = new CezarGeneralizat();
-            Console.WriteLine("Criptare prin cifrul lui Cezar generalizat:");
-            Console.WriteLine(cezarGeneralizat.criptat);
-            Console.WriteLine();
-            Console.WriteLine(cezarGeneralizat.Decriptare(cezarGeneralizat.criptat, cezarGeneralizat.n));
-            Console.WriteLine();
 
+            Console.Write("encrypted> "); Console.WriteLine(cezarGeneralizat.encrypted);
+            Console.Write("decrypted> "); Console.WriteLine(cezarGeneralizat.Decryption(cezarGeneralizat.encrypted, cezarGeneralizat.n));
+            Console.WriteLine();
+            #endregion
+
+            Console.Write("------------------------------------------------------------");
+            Console.WriteLine();
+            #region ROT13
             ROT13 rot13 = new ROT13();
-            Console.WriteLine("Criptare prin ROT13:");
-            Console.WriteLine(rot13.criptat);
             Console.WriteLine();
-            Console.WriteLine(rot13.Decriptare(rot13.criptat));
+            Console.WriteLine("- Criptare prin ROT13 -");
+            Console.Write("encrypted> "); Console.WriteLine(rot13.encrypted);
+            Console.Write("decrypted> "); Console.WriteLine(rot13.Decryption(rot13.encrypted));
             Console.WriteLine();
+            #endregion
 
-
-            Console.WriteLine("Criptarea prin cheie:");
+            Console.Write("------------------------------------------------------------");
+            Console.WriteLine();
+            #region Substitutie
+            Console.WriteLine("- Criptarea prin cheie -");
             Console.Write("Introduceti un cuvant cheie: ");
             Substitutie sub = new Substitutie();
-            Console.WriteLine(sub.criptat);
-
+            Console.Write("encrypted> "); Console.WriteLine(sub.encrypted);
+            #endregion
 
         }
     }
